@@ -1,0 +1,68 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="FindYouJob:war exploded">
+    <output-path>$PROJECT_DIR$/target/FindYouJob</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>FindYouJob</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="FindYouJob" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.jboss.weld.servlet:weld-servlet:1.0.1-Final" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:1.0.0.GA" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:4.0.0.GA" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.5.6" />
+          <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.1" />
+          <element id="library" level="project" name="Maven: javax.xml.stream:stax-api:1.0-2" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-impl:2.1.3" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-entitymanager:3.6.0.Final" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:3.6.0.Final" />
+          <element id="library" level="project" name="Maven: antlr:antlr:2.7.6" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.1" />
+          <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-commons-annotations:3.2.0.Final" />
+          <element id="library" level="project" name="Maven: javax.transaction:jta:1.1" />
+          <element id="library" level="project" name="Maven: cglib:cglib:2.2" />
+          <element id="library" level="project" name="Maven: javassist:javassist:3.12.0.GA" />
+          <element id="library" level="project" name="Maven: hsqldb:hsqldb:1.8.0.10" />
+          <element id="library" level="project" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.0.Final" />
+          <element id="library" level="project" name="Maven: asm:asm:3.3.1" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.core:jersey-server:2.27" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.core:jersey-common:2.27" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2:osgi-resource-locator:1.0.1" />
+          <element id="library" level="project" name="Maven: javax.ws.rs:javax.ws.rs-api:2.1" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.media:jersey-media-jaxb:2.27" />
+          <element id="library" level="project" name="Maven: javax.annotation:javax.annotation-api:1.2" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2.external:javax.inject:2.5.0-b42" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.containers:jersey-container-servlet:2.27" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.containers:jersey-container-servlet-core:2.27" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.inject:jersey-hk2:2.27" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2:hk2-locator:2.5.0-b42" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2.external:aopalliance-repackaged:2.5.0-b42" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2:hk2-api:2.5.0-b42" />
+          <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2:hk2-utils:2.5.0-b42" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:3.22.0-CR2" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.media:jersey-media-json-jackson:2.27" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.ext:jersey-entity-filtering:2.27" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.10" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.10" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.10" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.8.10" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.core:jersey-client:2.27" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/FindYouJob/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="FindYouJob/web/Web" />
+    </root>
+  </artifact>
+</component>
