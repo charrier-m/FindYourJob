@@ -14,7 +14,7 @@ public class OnisepRepository {
 
         ClientConfig clientConfig = new ClientConfig();
         Client client = ClientBuilder.newClient(clientConfig);
-
+        logger.info("request asked : " + requestToAsk);
         OnisepDTO response = client.target("https://api.opendata.onisep.fr/api/1.0/dataset/5fa5949243f97/search?q="+requestToAsk)
                 .request(MediaType.APPLICATION_JSON)
                 .header("content-type", MediaType.APPLICATION_JSON)

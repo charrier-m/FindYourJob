@@ -26,7 +26,7 @@ public class QcmService {
             request.append("manager+");
         }
         if(dto.isInformatique()){
-            request.append("informatique");
+            request.append("informatique+");
         }
         request.setCharAt(request.toString().length()-1, '&');
         request.append("size=5");

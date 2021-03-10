@@ -1,0 +1,398 @@
+{
+  "libelle":"Je veux absolument travailler au contact de la nature.","color":"#d98740","image":"img/nature.png",
+  "yes":{
+    "type":"question","libelle":"Mon métier doit aider les autres.","color":"#e05b49","image":"img/social.png",
+    "yes":{
+      "type":"querry",
+      "agriculture":"true",
+      "social":"true",
+      "mathematiques":"false",
+      "commerce":"false",
+      "medical":"false",
+      "manager":"false",
+      "informatique":"false"
+    },
+    "no":{
+      "type":"question","libelle":"La négotiation doit faire partie de mon métier","color":"#0e6bbc","image":"img/commerce.png",
+      "yes":{
+        "type":"querry",
+        "agriculture":"true",
+        "social":"false",
+        "mathematiques":"false",
+        "commerce":"true",
+        "medical":"false",
+        "manager":"false",
+        "informatique":"false"
+      },
+      "no":{
+        "type":"question","libelle":"Je veux gérer une équipe.","color":"#ba4276","image":"img/manager.png",
+        "yes":{
+          "type":"querry",
+          "agriculture":"true",
+          "social":"false",
+          "mathematiques":"false",
+          "commerce":"false",
+          "medical":"false",
+          "manager":"true",
+          "informatique":"false"
+        },
+        "no":{
+          "type":"querry",
+          "agriculture":"true",
+          "social":"false",
+          "mathematiques":"false",
+          "commerce":"false",
+          "medical":"false",
+          "manager":"false",
+          "informatique":"false"
+        }
+      }
+    }
+  },
+  "no":{
+    "type":"question","libelle":"J'adore travailler avec les chiffres.","color":"#bfb049","image":"img/mathematiques.png",
+    "yes":{
+      "type":"question","libelle":"Mon métier doit aider les autres.","color":"#e05b49","image":"img/social.png",
+      "yes":{
+        "type":"querry",
+        "agriculture":"false",
+        "social":"true",
+        "mathematiques":"true",
+        "commerce":"false",
+        "medical":"false",
+        "manager":"false",
+        "informatique":"false"
+      },
+      "no":{
+        "type":"question","libelle":"La négociation doit faire parti de mon métier","color":"#0e6bbc","image":"img/informatique.png",
+        "yes":{
+          "type":"querry",
+          "agriculture":"false",
+          "social":"false",
+          "mathematiques":"true",
+          "commerce":"true",
+          "medical":"false",
+          "manager":"false",
+          "informatique":"false"
+        },
+        "no":{
+          "type":"question","libelle":"Je veux travailler sur un ordinateur","color":"#a7c6c3","image":"img/informatique.png",
+          "yes":{
+            "type":"question","libelle":"Je veux gérer une équipe.","color":"#ba4276","image":"img/manager.png",
+            "yes":{
+              "type":"querry",
+              "agriculture":"false",
+              "social":"false",
+              "mathematiques":"true",
+              "commerce":"false",
+              "medical":"false",
+              "manager":"true",
+              "informatique":"true"
+            },
+            "no":{
+              "type":"querry",
+              "agriculture":"false",
+              "social":"false",
+              "mathematiques":"true",
+              "commerce":"false",
+              "medical":"false",
+              "manager":"false",
+              "informatique":"true"
+
+            }
+          },
+          "no":{
+            "type":"question","libelle":"Je veux gérer une équipe.","color":"#ba4276","image":"img/manager.png",
+            "yes":{
+              "type":"querry",
+              "agriculture":"false",
+              "social":"false",
+              "mathematiques":"true",
+              "commerce":"false",
+              "medical":"false",
+              "manager":"true",
+              "informatique":"false"
+            },
+            "no":{
+              "type":"querry",
+              "agriculture":"false",
+              "social":"false",
+              "mathematiques":"true",
+              "commerce":"false",
+              "medical":"false",
+              "manager":"false",
+              "informatique":"false"
+            }
+          }
+        }
+      }
+    },
+    "no":{
+      "type":"question","libelle":"Je veux travailler sur un ordinateur.","color":"#a7c6c3","image":"img/informatique.png",
+      "no":{
+        "type":"question","libelle":"La négociation fait partie de mon métier","color":"#0e6bbc","image":"img/commerce.png",
+        "no":{
+          "type":"question","libelle":"Le médical est ma vocation","color":"#ba79e3","image":"img/medical.png",
+          "yes":{
+            "type":"question","libelle":"Mon métier doit aider les autres","color":"#e05b49","image":"img/social.png",
+            "yes":{
+              "type":"question","libelle":"Je veux gérer une équipe.","color":"#ba4276","image":"img/manager.png",
+              "yes":{
+                "type":"querry",
+                "agriculture":"false",
+                "social":"true",
+                "mathematiques":"false",
+                "commerce":"false",
+                "medical":"true",
+                "manager":"true",
+                "informatique":"false"
+              },
+              "no":{
+                "type":"querry",
+                "agriculture":"false",
+                "social":"true",
+                "mathematiques":"false",
+                "commerce":"false",
+                "medical":"true",
+                "manager":"false",
+                "informatique":"false"
+
+              }
+
+            },
+            "no":{
+              "type":"question","libelle":"Je veux gérer une équipe.","color":"#ba4276","image":"img/manager.png",
+              "yes":{
+                "type":"querry",
+                "agriculture":"false",
+                "social":"false",
+                "mathematiques":"false",
+                "commerce":"false",
+                "medical":"true",
+                "manager":"true",
+                "informatique":"false"
+              },
+              "no":{
+                "type":"querry",
+                "agriculture":"false",
+                "social":"false",
+                "mathematiques":"false",
+                "commerce":"false",
+                "medical":"true",
+                "manager":"false",
+                "informatique":"false"
+              }
+            }
+          },
+          "no":{
+            "type":"question","libelle":"Je veux gérer une équipe.","color":"#ba4276","image":"img/manager.png",
+            "yes":{
+              "type":"question","libelle":"Mon métier doit aider les autres","color":"#e05b49","image":"img/social.png",
+              "yes":{
+                "type":"querry",
+                "agriculture":"false",
+                "social":"true",
+                "mathematiques":"false",
+                "commerce":"false",
+                "medical":"false",
+                "manager":"true",
+                "informatique":"false"
+              },
+              "no":{
+                "type":"querry",
+                "agriculture":"false",
+                "social":"false",
+                "mathematiques":"false",
+                "commerce":"false",
+                "medical":"false",
+                "manager":"true",
+                "informatique":"false"
+              }
+            },
+            "no":{
+              "type":"question","libelle":"Mon métier doit aider les autres","color":"#e05b49","image":"img/social.png",
+              "yes":{
+                "type":"querry",
+                "agriculture":"false",
+                "social":"true",
+                "mathematiques":"false",
+                "commerce":"false",
+                "medical":"false",
+                "manager":"false",
+                "informatique":"false"
+              },
+              "no":{
+                "type":"querry",
+                "agriculture":"false",
+                "social":"false",
+                "mathematiques":"false",
+                "commerce":"false",
+                "medical":"false",
+                "manager":"false",
+                "informatique":"false"
+              }
+            }
+          }
+        },
+        "yes":{
+          "type":"question","libelle":"Mon métier doit aider les autres","color":"#e05b49","image":"img/social.png",
+          "yes":{
+            "type":"question","libelle":"Je veux gérer une équipe.","color":"#ba4276","image":"img/manager.png",
+            "yes":{
+              "type":"querry",
+              "agriculture":"false",
+              "social":"false",
+              "mathematiques":"false",
+              "commerce":"true",
+              "medical":"false",
+              "manager":"true",
+              "informatique":"true"
+            },
+            "no":{
+              "type":"querry",
+              "agriculture":"false",
+              "social":"false",
+              "mathematiques":"false",
+              "commerce":"true",
+              "medical":"false",
+              "manager":"false",
+              "informatique":"true"
+            }
+          },
+          "no":{
+            "type":"question","libelle":"Le médical est ma vocation","color":"#ba79e3","image":"img/medical.png",
+            "yes":{
+              "type":"question","libelle":"Je veux gérer une équipe.","color":"#ba4276","image":"img/manager.png",
+              "yes":{
+                "type":"querry",
+                "agriculture":"false",
+                "social":"false",
+                "mathematiques":"false",
+                "commerce":"false",
+                "medical":"false",
+                "manager":"true",
+                "informatique":"true"
+              },
+              "no":{
+                "type":"querry",
+                "agriculture":"false",
+                "social":"false",
+                "mathematiques":"false",
+                "commerce":"false",
+                "medical":"false",
+                "manager":"false",
+                "informatique":"true"
+              }
+            },
+            "no":{
+              "type":"question","libelle":"Mon métier doit aider les autres","color":"#ba4276","image":"img/social.png",
+              "yes":{
+                "type":"querry",
+                "agriculture":"false",
+                "social":"true",
+                "mathematiques":"false",
+                "commerce":"false",
+                "medical":"true",
+                "manager":"false",
+                "informatique":"true"
+              },
+              "no":{
+                "type":"querry",
+                "agriculture":"false",
+                "social":"false",
+                "mathematiques":"false",
+                "commerce":"false",
+                "medical":"true",
+                "manager":"false",
+                "informatique":"true"
+              }
+            }
+          }
+        }
+      },
+      "yes":{
+        "type":"question","libelle":"La négociation doit faire partie de mon métier","color":"#0e6bbc","image":"img/commerce.png",
+        "yes":{
+          "type":"question","libelle":"Je veux gérer une équipe.","color":"#ba4276","image":"img/manager.png",
+          "yes":{
+            "type":"querry",
+            "agriculture":"false",
+            "social":"false",
+            "mathematiques":"false",
+            "commerce":"true",
+            "medical":"false",
+            "manager":"true",
+            "informatique":"true"
+          },
+          "no":{
+            "type":"querry",
+            "agriculture":"false",
+            "social":"false",
+            "mathematiques":"false",
+            "commerce":"true",
+            "medical":"false",
+            "manager":"false",
+            "informatique":"true"
+          }
+        },
+        "no":{
+          "type":"question","libelle":"Le médical est ma vocation","color":"#ba79e3","image":"img/medical.png",
+          "yes":{
+            "type":"question","libelle":"Mon métier doit aider les autres","color":"#e05b49","image":"img/social.png",
+            "yes":{
+              "type":"querry",
+              "agriculture":"false",
+              "social":"true",
+              "mathematiques":"false",
+              "commerce":"false",
+              "medical":"true",
+              "manager":"false",
+              "informatique":"true"
+            },
+            "no":{
+              "type":"querry",
+              "agriculture":"false",
+              "social":"false",
+              "mathematiques":"false",
+              "commerce":"false",
+              "medical":"true",
+              "manager":"false",
+              "informatique":"true"
+            }
+          },
+          "no":{
+            "type":"question","libelle":"Je veux gérer une équipe.","color":"#ba4276","image":"img/manager.png",
+            "yes":{
+              "type":"querry",
+              "agriculture":"false",
+              "social":"false",
+              "mathematiques":"false",
+              "commerce":"false",
+              "medical":"false",
+              "manager":"true",
+              "informatique":"true"
+            },
+            "no":{
+              "type":"querry",
+              "agriculture":"false",
+              "social":"false",
+              "mathematiques":"false",
+              "commerce":"false",
+              "medical":"false",
+              "manager":"false",
+              "informatique":"true"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
