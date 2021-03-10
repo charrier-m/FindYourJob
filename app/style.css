@@ -1,0 +1,159 @@
+:root {
+    --light: #ffffff;
+    --dark: #2c3e50;
+    --green:#1abc9c;
+    --text: #ffffff;
+}
+
+
+body {
+    background-color: var(--green);
+    font-family: 'Nunito';
+    overflow-x: hidden;
+    overflow-y: auto;
+    color:var(--text);
+    margin:0;
+}
+
+button {
+    display: block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: var(--dark);
+    width: 150px;
+    height: 90px;
+    border-radius: 30px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text);
+    background-size: 100% 100%;
+    box-shadow: 0 0 0 7px var(--dark) inset;
+    margin-bottom: 15px;
+}
+button:hover {
+    background-image: linear-gradient(
+            145deg,
+            transparent 10%,
+            var(--green) 10% 20%,
+            transparent 20% 30%,
+            var(--green) 30% 40%,
+            transparent 40% 50%,
+            var(--green) 50% 60%,
+            transparent 60% 70%,
+            var(--green) 70% 80%,
+            transparent 80% 90%,
+            var(--green) 90% 100%
+    );
+}
+.question {
+    height: 500px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top : 5%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+    border:3px solid;
+    border-color: #2c3e50;
+    border-width: 8px;
+    border-radius: 50px;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 25px;
+
+
+
+}
+
+
+.title{
+    background: #2c3e50;
+    height: 80px;
+    margin:0;
+    padding-top: 15px;
+    color:white;
+    text-align: center;
+    font-size: 50px;
+}
+.yesbutton{
+    position : absolute;
+    right:50px;
+    bottom : 40px;
+}
+.nobutton{
+    position : absolute;
+    left:50px;
+    bottom : 40px;
+}
+
+ul {
+    background-color: white;
+    height: 500px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top : 5%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+    border:3px solid;
+    border-color: #2c3e50;
+    border-width: 8px;
+    border-radius: 50px;
+    font-size: 35px;
+    color:var(--dark);
+    text-align: center;
+    padding-top: 25px;
+    line-height: 1.5em;
+
+}
+
+li {
+    list-style : none;
+    size: 10px;
+}
+
+#presentation {
+    size: 40px;
+    color:var(--green);
+}
+
+#seeResult {
+    position: center;
+    margin-top: 200px;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    height: 100px;
+}
+
+#start{
+    position: center;
+    margin-top: 200px;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    height: 100px;
+}
+img {
+    width: 200px;
+    display: block;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+

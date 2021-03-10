@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+  <title>tuto app</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1 class="title">Find Your Job</h1>
+<div ng-controller='monController'>
+
+  <button id="start" ng-show="startVisible" ng-click="start()">Commencer le test</button>
+
+  <div class="question" ng-style="style" ng-show="questionVisible" >
+    {{libelle}}
+    <img src={{image}} width="200px" height="200px">
+      <br>
+    <button class="yesbutton" ng-click="YesClick()">oui</button>
+    <button class="nobutton" ng-click="NoClick()">non</button>
+  </div>
+
+  <ul ng-show="blocResult">
+    <p id="presentation">Voici les métiers fait pour toi :</p>
+    <li ng-repeat="job in jobs">
+      {{job}}
+    </li>
+  </ul>
+</div>
+</body>
+<script src="lib/angular/angular.js"></script>
+<script src="app.js"></script>
+</html>
